@@ -1,6 +1,6 @@
 # Личный проект «Кексобукинг»
 
-* Студент: [Александр Марченко](https://up.htmlacademy.ru/javascript/23/user/1615341).
+* Студент: [Александр Марченко](https://htmlacademy.ru/profile/mrachenko).
 * Наставник: [Артем Рудов](https://htmlacademy.ru/profile/id345377)).
 
 ---
