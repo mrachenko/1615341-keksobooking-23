@@ -7,14 +7,16 @@ function getRandomIntInclusive(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
 
-  if (min>=max) {
+  if (min >= max) {
+
     return undefined;
   }
   return Math.round(getRandom(min, max)) + min;
 }
 
 function getRandomFloatInclusive(min, max, digitsCount) {
-  if (min>=max) {
+  if (min >= max) {
+
     return undefined;
   }
   return Math.round((getRandom(min, max) + min) * 10 ** digitsCount) / 10 ** digitsCount;
