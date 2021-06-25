@@ -1,4 +1,5 @@
 function getRandom(min, max) {
+
   return Math.random() * (max - min);
 }
 
@@ -11,6 +12,7 @@ function getRandomIntInclusive(min, max) {
 
     return undefined;
   }
+
   return Math.round(getRandom(min, max)) + min;
 }
 
@@ -19,6 +21,7 @@ function getRandomFloatInclusive(min, max, digitsCount) {
 
     return undefined;
   }
+
   return Math.round((getRandom(min, max) + min) * 10 ** digitsCount) / 10 ** digitsCount;
 }
 
